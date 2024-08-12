@@ -226,7 +226,7 @@ def main():
     st.write("Adjust the weights for each metric. The total must add up to 100%.")
 
     default_weights = {
-        'Giving Score': 10,
+        'Giving Score': 20,
         'Capacity Score': 35,
         'Years Given Score': 10,
         'Consecutive Years Score': 10,
