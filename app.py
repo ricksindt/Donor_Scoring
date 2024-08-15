@@ -292,9 +292,9 @@ def main():
         st.plotly_chart(fig)
 
         # Top 10 Donors Table
-        st.markdown('<p class="medium-font">Top 10 Donors</p>', unsafe_allow_html=True)
-        top_10_donors = results.nlargest(10, 'Final Score')[['Account Name', 'Total Giving Including Pre-66', 'Final Score', 'Action Score']]
-        st.table(top_10_donors)
+        #st.markdown('<p class="medium-font">Top 10 Donors</p>', unsafe_allow_html=True)
+        #top_10_donors = results.nlargest(10, 'Final Score')[['Account Name', 'Total Giving Including Pre-66', 'Final Score', 'Action Score']]
+        #st.table(top_10_donors)
 
         
         # Filters for data exploration
